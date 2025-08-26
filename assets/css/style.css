@@ -489,6 +489,7 @@ main {
   display: flex;
   align-items: center;
   gap: 16px;
+  
 }
 
 .contact-info {
@@ -506,6 +507,24 @@ main {
 .contact-info :is(.contact-link, time, address) {
   color: var(--white-2);
   font-size: var(--fs-7);
+}
+.contact-link {
+  display: inline-block;       /* needed for ellipsis */
+  max-width: 180px;
+  padding-right: 30px;            /* set the max width as per your layout */
+  white-space: nowrap;         /* keep text on one line */
+  overflow: hidden;            /* hide extra text */
+  text-overflow: ellipsis;     /* show ... */
+  vertical-align: middle;
+}
+@media (max-width: 600px) {
+  .contact-link {
+    max-width: 100%;        /* take full width */
+    white-space: normal;    /* allow wrapping */
+    overflow: visible;      /* show full text */
+    text-overflow: unset;   /* remove ellipsis */
+    padding-right: 0;       /* reset extra padding */
+  }
 }
 
 .contact-info address { font-style: normal; }
