@@ -356,6 +356,21 @@ main {
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
+/*logo in sidebar*/
+.info-content .logo {
+  display: block;
+  margin: 10px auto;  /* center */
+  width: 200px;        /* adjust size */
+  height: auto;
+  border-radius: 20px;
+}
+
+/* Hide logo on mobile */
+@media (max-width: 768px) {
+  .info-content .logo {
+    display: none;
+  }
+}
 
 .sidebar {
   margin-bottom: 15px;
@@ -407,6 +422,19 @@ main {
   border-radius: 1px;
 }
 
+.info-content .title {
+  margin-bottom: 12px;  /* adjust spacing instead of <br> */
+}
+
+.info-content .moto {
+  margin-top: 0;  /* optional: reset if too much space */
+}
+
+@media (min-width: 992px) {  /* desktop breakpoint */
+  .info-content .title {
+    margin-bottom: 20px !important;
+  }
+}
 .info_more-btn {
   position: absolute;
   top: -15px;
@@ -505,6 +533,8 @@ main {
 
 
 .social-item .social-link:hover { color: var(--light-gray); }
+
+
 
 /*-----------------------------------*\
   #NAVBAR
@@ -1942,4 +1972,47 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .timeline-text { max-width: 700px; }
 
+}
+
+.invite-box {
+  background: #113524;            /* dark green background */
+  border: 1px solid #1c4532;      /* slightly darker border */
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* subtle dark shadow */
+  font-family: Arial, sans-serif;
+  color: #51e879;                 /* light greenish-white text */
+}
+
+.invite-box h3 {
+  margin-top: 0;
+  color: #19f9cc;   /* very light teal/white for heading */
+  font-size: 20px;
+}
+
+.invite-box p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #f0fff4;   /* light text */
+}
+
+.invite-box ul {
+  margin: 0;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #e6fffa;   /* light text */
+  line-height: 1.6;
+}
+
+.invite-box ul li::marker {
+  color: #9ae6b4;   /* pastel green bullets */
+}
+
+.highlight {
+  background-color: green;   /* highlight color */
+  display: inline;           /* keep it inline, no block stretching */
+  padding: 2px 4px;          /* optional: small padding for nicer look */
+  border-radius: 3px;        /* optional: rounded edges */
 }
