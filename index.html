@@ -1,1237 +1,1299 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Sureshpurohit</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suresh Purohit</title>
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon1.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!--- favicon -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!--- custom css link -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- Vendor CSS Files -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/main.css" rel="stylesheet">
-
- 
+  <!--- google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body class="index-page">
+<body>
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container position-relative d-flex align-items-center justify-content-between">
+  <!--- #MAIN -->
 
-      <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
-       <!-- Uncomment the line below if you also wish to use an image logo -->
-         <img src="assets/img/suresh.jpg" alt="suresh logo">
-       <!-- <h1 class="sitename">Suresh Purohit</h1> -->
-      </a>
+  <main>
 
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="#home" class="active">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#startups">Startups</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#invitehim">Invite Him</a></li>
+    <!--- #SIDEBAR -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/suresh purohit passport photo.png" alt="Suresh Purohit" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Suresh Purohit">Suresh Purohit</h1>
+          <img src="./assets/images/think_without_constraints.jpeg" alt="Logo" class="logo">
+          <!-- <p class="title">Think Without Constraints</p> -->
+          <p class="title">Innovator & Entrepreneur</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
           
-        <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-            <ul>
-              <li><a href="#">Dropdown 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
-                <ul>
-                  <li><a href="#">Deep Dropdown 1</a></li>
-                  <li><a href="#">Deep Dropdown 2</a></li>
-                  <li><a href="#">Deep Dropdown 3</a></li>
-                  <li><a href="#">Deep Dropdown 4</a></li>
-                  <li><a href="#">Deep Dropdown 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Dropdown 2</a></li>
-              <li><a href="#">Dropdown 3</a></li>
-              <li><a href="#">Dropdown 4</a></li>
-            </ul>
-          </li>-->
-          <li><a href="#contact">Contact</a></li>
+          <ion-icon name="suresh-purohit"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+          <!-- Email (hidden by default, toggle with button) -->
+          <div id="email-section" style="display: none;">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a class="contact-link" title="Hello@sureshpurohit.in" >Hello(at)sureshpurohit(dot)in</a>
+              <a class="contact-link">Hello(at)sureshpurohit(dot)in</a>
+
+            </div>
+          </li>
+          </div>
+          <!-- Toggle button for email -->
+
+
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+" class="contact-link">+91 </a>
+            </div>
+
+          </li> -->
+
+          <!-- <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li> -->
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Vadodara, Bharat</address>
+            </div>
+
+          </li>
+
         </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <!-- <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li> -->
+          <li class="social-item">
+            <label class="switch">
+              <input type="checkbox" id="emailSwitch" onclick="toggleEmail()">
+              <span class="slider"></span>
+            </label>
+          </li>
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/sureshpurohit" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--- #main-content -->
+
+    <div class="main-content">
+
+      <!--- #NAVBAR -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Journey</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li> -->
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
       </nav>
 
-     <!-- <a class="cta-btn" href="#about">Get Started</a>-->
+      <!--- #ABOUT-->
 
-    </div>
-  </header>
+      <article class="about  active" data-page="about">
 
-  <main class="main">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+        <section class="about-text">
+          <p>I am Suresh Purohit, an innovator and entrepreneur driven by a passion for creating impactful solutions and inspiring change. With over 23 years of experience across Business Review, Techno-Commercial Management, Project Management, Marketing, Strategy, and Innovation, I have built a career that blends vision with execution.</p>
+          <p>Holding a BE in Chemical Engineering and an MBA in Marketing, I have founded six startups and initiatives that reflect my belief in thinking without constraints. Alongside entrepreneurship, I enjoy engaging with communities as a Quiz Master, having conducted 30+ quizzes, and as a Visiting Faculty at the Faculty of Management Studies, The M. S. University of Baroda, where I mentor aspiring leaders.</p>
+          <p></p>My journey has also been shaped by contributions to the innovation ecosystem—whether as a Founding Member of the Vadodara Innovation Council, organizing team member of Maker Fest Vadodara, or through leadership roles with the Baroda Management Association and Rajpurohit Navyuvak Mandal Vadodara.</p>
+          <p>Over the years, my work has been recognized with honors such as the VNM TV Environment Excellence Award and by supporting Zydus in winning the “Best Business Unit in Innovation” award. I take pride in the fact that my expertise has benefitted leading organizations including Zydus, Sun Pharma, Emcure Pharma, Godrej, and many more.</p>
+          <p>At heart, I am a believer in creativity, collaboration, and continuous learning—qualities that fuel my mission to make a meaningful difference in business and society.</p>
+        </section>
 
-      <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
 
-      <div class="container d-flex flex-column align-items-center text-center">
-        <h2 data-aos="fade-up" data-aos-delay="100">Think Without Constraints</h2>
-       <!--  <p data-aos="fade-up" data-aos-delay="200">Business Reinvented Through Innovation</p>
-      <div data-aos="fade-up" data-aos-delay="300">
-          <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn"></a>
-        </div>-->
-      </div>
+        <!--- service -->
 
-    </section><!-- /Hero Section -->
+        <section class="service">
 
-    <!-- About Section -->
-    <section id="about" class="about section">
+          <h3 class="h3 service-title">Know my Workshops and Programs</h3>
 
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>About</h2>
-       
-      </div><!-- End Section Title -->
+          <ul class="service-list">
 
-      <div class="container">
+            <li class="service-item">
 
-        <div class="row gy-4">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
 
-          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="100">
-          <p style=" font-weight: bold; font-size: 24px;">
-  Innovator and Entrepreneur
-</p>
-            <ul>
-              <li><i class="bi bi-check2-circle"></i> <span>Founder of six startups/initiatives
-              </span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Work experience of 23 years in Business review, Techno Commercial Management, Project Management, Marketing, Strategy and Innovation.
-              </span></li>
-              <li><i class="bi bi-check2-circle"></i> <span>Holds degrees of BE Chemical and MBA Marketing 
-              </span></li>
-              <li><i class="bi bi-check2-circle"></i> <span> Quiz Master, have conducted over 30 quizzes</span></li>
-              <li><i class="bi bi-check2-circle"></i> <span> Visiting faculty Faculty of Management Studies, The M S University of Baroda
-              </span></li>
-            </ul>
-          </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Think Without Constraints</h4>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
-          <ul>
-          <li><i class="bi bi-check2-circle"></i> <span>Founding member Vadodara Innovation Council
-          </span></li>
-          <li><i class="bi bi-check2-circle"></i> <span>Organizing team member Maker Fest Vadodara
-          </span></li>
-          <li><i class="bi bi-check2-circle"></i> <span>Former Managing Committee Member Baroda Management Association
-          </span></li>
-          <li><i class="bi bi-check2-circle"></i> <span>Awarded by VNM TV Environment Excellence Award
-          </span></li>
-          <li><i class="bi bi-check2-circle"></i> <span>Helped 'Business Unit' to win 'Best Business Unit award in Innovation' at Zydus group
-          </span></li>
-          <li><i class="bi bi-check2-circle"></i> <span>Former President of Rajpurohit Navyuvak Mandal Vadodara
-          </span></li>
-          <li><i class="bi bi-check2-circle"></i> <span>Beneficiaries: Zydus, Sun Pharma, Emcure Pharma, Godrej and many more.
-          </span></li>
+                <p class="service-item-text">
+                  Free your mind from limitations and fear of failure → encourages bold, innovative ideas
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Break The Rules & Change The Game</h4>
+
+                <p class="service-item-text">
+                  Challenge boundaries, transform processes → fosters a culture of innovation and adaptability
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Six Thinking Dimensions</h4>
+
+                <p class="service-item-text">
+                  Logic, emotions, creativity, caution, optimism and control
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-quote.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Creative Thinking</h4>
+
+                <p class="service-item-text">
+                  Generate new, original ideas from innovative perspectives
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-music.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Music-Based Quizousie</h4>
+
+                <p class="service-item-text">
+                  Fun, interactive quiz event around music
+                </p>
+              </div>
+
+            </li>
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-quiz.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Quiz Master Programs/Events</h4>
+
+                <p class="service-item-text">
+                  Hosting, engaging quiz rounds, fun & fair experience
+                </p>
+              </div>
+
+            </li>
+
           </ul>
 
-            <!--<a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>-->
-          </div>
+        </section>
 
-        </div>
 
-      </div>
+        <!--- testimonials -->
 
-    </section><!-- /About Section -->
+        <!-- <section class="testimonials">
 
-   
+          <h3 class="h3 testimonials-title">Testimonials</h3>
 
- <!-- Startups Section -->
- <section id="startups" class="services section">
+          <ul class="testimonials-list has-scrollbar">
 
-  <!-- Section Title -->
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Startups</h2>
-    <p style=" font-weight: bold; font-size: 24px;">Few Prominent Startups/Initiatives 
-    </p>
-  </div><!-- End Section Title -->
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-  <div class="container">
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
 
-    <div class="row gy-4">
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
 
-      
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-        <div class="service-item position-relative">
-          <div class="img">
-            <img src="assets/img/pharmacupboardlogo.png" alt="">
-          </div>
-          <a href="https://pharmacupboard.com" class="stretched-link">
-            <h3>PharmaCupboard</h3>
-          </a>
-          <p>e-marketplace for pharma and chemical materials. An award-winning startup operating in India since 2016.
-          </p>
-        </div>
-      </div><!-- End Service Item -->
-    
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-        <div class="service-item position-relative">
-          <div class="img">
-            <img src="assets/img/zangitlogo.png" alt="">
-          </div>
-          <a href="https://zangit.in" class="stretched-link">
-            <h3>Zangit
-            </h3>
-          </a>
-          <p> A music app, allows the listeners to enjoy songs and recitation as per raag-prahar cycle.
-             Zangit is launched in 2025, and is now available on Google Play Store. </p>
-         
-        </div>
-      </div><!-- End Service Item -->
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-        <div class="service-item position-relative">
-          <div class="img">
-            <img src="assets/img/Quizousielogo.png" alt="">
-          </div>
-          <a href="https://quizousie.com/" class="stretched-link">
-            <h3>  Quizousie
-            </h3>
-          </a>
-          <!--<h3 data-bs-toggle="modal" data-bs-target="#quizousieModal" style="cursor:pointer;">Quizousie</h3>-->
-         <!-- <div class="dropdown">
-  <h3 class="dropdown-toggle" data-bs-toggle="dropdown" style="cursor: pointer;">
-    Quizousie
-  </h3>
-  <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="https://quizousie.com/" target="_blank">Visit Website</a></li>
-    <li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/User:Sureshpurohit" target="_blank">View Wikipedia</a></li>
-  </ul>
-</div>-->
-
-<p>A format as well as game, has a blend of quiz and housie, launched in 2020. Available in box edition. Add fun to your gatherings.
-          </p>
-         
-        </div>
-      </div><!-- End Service Item -->
-
-
-
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-        <div class="service-item  position-relative">
-          <div class="img">
-            <img src="assets/img/olivetrips logo (1).png" alt="">
-          </div>
-          <a href="#" class="stretched-link">
-            <h3>OliveTrips</h3>
-          </a>
-          <p> Web portal for carpooling and vehicle sharing, launched in 2011. Featured on SpringWise.<span style="font-style: italic";>(Inactive)</Span> </p>
-        </div>
-      </div><!-- End Service Item -->
-
-
-      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-        <div class="service-item position-relative">
-          <div class="img">
-            <img src="assets/img/tanki ki Ghantilogo.png" alt="">
-          </div>
-          <a href="#" class="stretched-link">
-            <h3>Tanki ki Ghanti </h3>
-          </a>
-          <p> a water saving initiative launched in 2018,
-             has saved over 7 Lakh litre water in Gujarat and Rajasthan <span style="font-style: italic";>(Inactive)</Span></p>
-        </div>
-      </div><!-- End Service Item -->
-
-     
-     
-
-     
-      
-
-    </div>
-
-  </div>
-
-</section><!-- /Services Section -->
-
- <!-- Services Section -->
- <section id="services" class="services section">
-
-<!-- Section Title -->
-<div class="container section-title" data-aos="fade-up">
-  <h2>Services</h2>
-  <p style=" font-weight: bold; font-size: 24px;">Organizing workshops on topics such as</p>
-</div><!-- End Section Title -->
-
-<div class="container">
-
-  <div class="row gy-4">
-
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-      <div class="service-item  position-relative">
-        <div class="icon">
-          <i class="bi bi-arrows-move"></i>
-        </div>
-       
-          <h3>Think Without Constraints</h3>
-       
-        <p>Means freeing your mind from limitations, rules, or fear of failure. It encourages bold,
-           imaginative,
-           and boundary-breaking ideas that lead to true innovation.</p>
-      </div>
-    </div><!-- End Service Item -->
-
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-      <div class="service-item position-relative">
-        <div class="icon">
-          <i class="bi bi-stars"></i>
-        </div>
-        
-          <h3>Break The Rules And Change The Game</h3>
-        
-        <p>Means challenging existing boundaries to innovate and transform 
-          the way things are done.</p>
-      </div>
-    </div><!-- End Service Item -->
-
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-      <div class="service-item position-relative">
-        <div class="icon">
-          <i class="bi bi-journal-text fs-3 "></i>
-        </div>
-       
-          <h3>Six Thinking Dimensions</h3>
-        
-        <p> Represent different perspectives for problem-solving: logic,
-           emotions, creativity, caution, optimism, and control.</p>
-      </div>
-    </div><!-- End Service Item -->
-
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-      <div class="service-item position-relative">
-        <div class="icon">
-          <i class="bi bi-lightbulb fs-3"></i>
-        </div>
-        
-          <h3>Creative Thinking</h3>
-     
-        <p>Is the ability to generate new, original ideas by approaching problems
-           from unique and innovative perspectives.</p>
-       
-      </div>
-    </div><!-- End Service Item -->
-
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-      <div class="service-item position-relative">
-        <div class="icon">
-          <i class="bi bi-music-note-beamed fs-3"></i>
-        </div>
- 
-          <h3>Music Based Quizousie 
-          </h3>
-       
-        <p> Is a fun, interactive quiz event centered around music, testing knowledge and 
-          creativity through musical challenges.</p>
-       
-      </div>
-    </div><!-- End Service Item -->
-
-    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-      <div class="service-item position-relative">
-        <div class="icon">
-          <i class="bi bi-question-circle-fill fs-3"></i>
-        </div>
-        
-          <h3>Organizing program/event as Quiz Master</h3>
-        
-
-        <p>Involves hosting, creating engaging quiz rounds, and ensuring a fun and fair experience for participants.</p>
-        
-       
-        <a href="#" class="read-more" data-bs-toggle="modal" data-bs-target="#quizousieModal">
-  <span>Read More</span><i class="bi bi-arrow-right"></i>
-</a>
-      </div>
-       
-    </div><!-- End Service Item -->
-
-  </div>
-
-</div>
-
-</section><!-- /Services Section -->
-    <!-- Call To Action Section 
-    <section id="call-to-action" class="call-to-action section dark-background">
-
-      <img src="assets/img/cta-bg.jpg" alt="">
-
-      <div class="container">
-
-        <div class="row" data-aos="zoom-in" data-aos-delay="100">
-          <div class="col-xl-9 text-center text-xl-start">
-            <h3>Call To Action</h3>
-            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-xl-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
-          </div>
-        </div>
-
-      </div>
-
-    </section> /Call To Action Section -->
-
-    <!-- Features Section 
-    <section id="features" class="features section">
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="features-image col-lg-6 order-lg-2" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/features-bg.jpg" alt=""></div>
-
-          <div class="col-lg-6 order-lg-1">
-
-            <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-archive flex-shrink-0"></i>
-              <div>
-                <h4>Est labore ad</h4>
-                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-              </div>
-            </div> End Features Item
-
-            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-basket flex-shrink-0"></i>
-              <div>
-                <h4>Harum esse qui</h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-              </div>
-            </div> End Features Item
-
-            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-broadcast flex-shrink-0"></i>
-              <div>
-                <h4>Aut occaecati</h4>
-                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-              </div>
-            </div> End Features Item
-
-            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-camera-reels flex-shrink-0"></i>
-              <div>
-                <h4>Beatae veritatis</h4>
-                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-              </div>
-            </div> End Features Item
-
-          </div>
-
-        </div>
-
-      </div>-->
-
-    </section><!-- /Features Section -->
-
-    <!-- Clients Section 
-    <section id="clients" class="clients section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row g-0 clients-wrap">
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
-          </div> End Client Item 
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div> End Client Item 
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
-          </div> End Client Item 
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
-          </div> End Client Item 
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div> End Client Item 
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div> End Client Item 
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-7.png" class="img-fluid" alt="">
-          </div> End Client Item
-
-          <div class="col-xl-3 col-md-4 client-logo">
-            <img src="assets/img/clients/client-8.png" class="img-fluid" alt="">
-          </div> End Client Item 
-
-        </div>
-
-      </div>-->
-
-    </section>
-    <!-- /Clients Section -->
-
-    <!-- Stats Section 
-    <section id="stats" class="stats section dark-background">
-
-      <img src="assets/img/stats-bg.jpg" alt="" data-aos="fade-in">
-
-      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="subheading">
-          <h3>What we have achieved so far</h3>
-          <p>Iusto et labore modi qui sapiente xpedita tempora et aut non ipsum consequatur illo.</p>
-        </div>
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Clients</p>
-            </div>
-          </div><!-- End Stats Item 
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div><!-- End Stats Item 
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div><!-- End Stats Item 
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item text-center w-100 h-100">
-              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Workers</p>
-            </div>
-          </div><!-- End Stats Item 
-
-        </div>
-
-      </div>
-
-    </section>
-    <!-- Stats Section 
-
-    <!-- Portfolio Section 
-    <section id="portfolio" class="portfolio section">
-
-      <!-- Section Title
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title 
-
-      <div class="container">
-
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-
-          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-product">Card</li>
-            <li data-filter=".filter-branding">Web</li>
-          </ul><!-- End Portfolio Filters 
-
-          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-1.jpg" title="App 1" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-2.jpg" title="Product 1" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 1</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-3.jpg" title="Branding 1" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-4.jpg" title="App 2" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-5.jpg" title="Product 2" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 2</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-6.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item 
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-7.jpg" title="App 3" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Product 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-8.jpg" title="Product 3" data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item
-
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <img src="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Branding 3</h4>
-                <p>Lorem ipsum, dolor sit</p>
-                <a href="assets/img/masonry-portfolio/masonry-portfolio-9.jpg" title="Branding 2" data-gallery="portfolio-gallery-branding" class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-              </div>
-            </div><!-- End Portfolio Item
-
-          </div><!-- End Portfolio Container 
-
-        </div>
-
-      </div>
-
-    </section><!-- /Portfolio Section -->
-
-    <!-- Pricing Section 
-    <section id="pricing" class="pricing section light-background">
-
-      <!-- Section Title 
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Pricing</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title 
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="pricing-item">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item 
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="pricing-item recommended">
-              <span class="recommended-badge">Recommended</span>
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item 
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="pricing-item">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div><!-- End Pricing Item
-
-        </div>
-
-      </div>
-
-    </section><!-- /Pricing Section -->
-
-    <!-- Faq Section
-    <section id="faq" class="faq section">
-
-      <div class="container-fluid">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-7 d-flex flex-column justify-content-center order-2 order-lg-1">
-
-            <div class="content px-xl-5" data-aos="fade-up" data-aos-delay="100">
-              <h3><span>Frequently Asked </span><strong>Questions</strong></h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
-            </div>
-
-            <div class="faq-container px-xl-5" data-aos="fade-up" data-aos-delay="200">
-
-              <div class="faq-item faq-active">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-                <div class="faq-content">
-                  <p>Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item
-
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item
-
-              <div class="faq-item">
-                <i class="faq-icon bi bi-question-circle"></i>
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                <div class="faq-content">
-                  <p>Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis</p>
-                </div>
-                <i class="faq-toggle bi bi-chevron-right"></i>
-              </div><!-- End Faq item
-
-            </div>
-
-          </div>
-
-          <div class="col-lg-5 order-1 order-lg-2">
-            <img src="assets/img/faq.jpg" class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100">
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /Faq Section -->
-
-    <!-- Recent Posts Section 
-    <section id="recent-posts" class="recent-posts section">
-
-      <!-- Section Title 
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Recent Blog Posts</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title 
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <article>
-
-              <div class="post-img">
-                <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
-              </div>
-
-              <p class="post-category">Politics</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                   </p>
                 </div>
+
               </div>
+            </li>
 
-            </article>
-          </div><!-- End post list item 
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <article>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
 
-              <div class="post-img">
-                <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
-              </div>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
 
-              <p class="post-category">Sports</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Allisa Mayer</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                   </p>
                 </div>
+
               </div>
+            </li>
 
-            </article>
-          </div><!-- End post list item 
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <article>
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
 
-              <div class="post-img">
-                <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
-              </div>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
 
-              <p class="post-category">Entertainment</p>
-
-              <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
-              </h2>
-
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
-                  <p class="post-date">
-                    <time datetime="2022-01-01">Jun 22, 2022</time>
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                   </p>
                 </div>
+
               </div>
+            </li>
 
-            </article>
-          </div><!-- End post list item 
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-        </div><!-- End recent posts list 
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
 
-      </div>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
 
-    </section><!-- Recent Posts Section -->
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
 
-<!--Invite him
-<section id="invitehim" class="contact section light-backgroung">
-  <!-- Section Title 
-  <div class="container section-title" data-aos="fade-up">
-    <h2>Invite him</h2>
-    
-  </div><!-- End Section Title 
-<div class="container" data-aos="fade" data-aos-delay="100">
-  <div class="row gy-12">
-    <div class="col-lg-12">
-      <form  id="contactform" action="forms" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
-  <div class="row gy-4">
-
-    <!-- Program/Event 
-    <div class="col-md-6">
-      <input type="text" name="program_event" id="program_event" class="form-control" placeholder="Name of Program/Event" required>
-    </div>
-
-    <!-- Location/Place 
-    <div class="col-md-6">
-      <input type="text" name="location" id="location"   class="form-control" placeholder="Location/Place of Invitation" required>
-    </div>
-
-    <!-- Topic 
-    <div class="col-md-6">
-      <input type="text" name="topic" id="topic"  class="form-control" placeholder="Topic of Talk/Workshop" required>
-    </div>
-
-    <!-- Date of Invitation 
-    <div class="col-md-6">
-      <input type="text" name="invitation_date"  id="invitation_date" class="form-control" placeholder="Date of Invitation" required>
-    </div>
-
-    <!-- Your Name 
-    <div class="col-md-6">
-      <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
-    </div>
-
-    <!-- Your Email 
-    <div class="col-md-6">
-      <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
-    </div>
-
-    <!-- Contact Number 
-    <div class="col-md-6">
-      <input type="text" name="contact"  id="contact" class="form-control" placeholder="Your Contact Number" required>
-    </div>
-
-    <!-- Subject 
-    <div class="col-md-6">
-      <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject of Message" required>
-    </div>
-
-    <!-- Message 
-    <div class="col-md-12">
-      <textarea class="form-control" id="message" name="message" rows="10" placeholder="Message" required></textarea>
-    </div>
-
-    <!-- Form Messages 
-    <div class="col-md-12 text-center">
-  <div id="loading-message" style="display: none;">Sending</div>
-  <div id="error-message" style="display: none; color:green;"></div>
-  <div id="Success-message" style="display: none; color:green;">Your message has been sent. Thank you!</div>
-
-  <!-- Feedback placeholder 
-  <p id="formFeedback" style="margin-top: 1em; font-weight: bold;"></p>
-
-  <button type="submit">Send Message</button>
-</div>
-
-  </div>
-</form>
-    </div><!-- End Contact Form 
-  </div>
-</div>
-</section>
-
-
-
-End invite him-->
-
-
-    <!-- Contact Section -->
-    <section id="contact" class="contact section light-background">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-       
-      </div><!-- End Section Title -->
-
-
-      <div class="container" data-aos="fade" data-aos-delay="100">
-
-        <div class="row gy-12">
-
-          <div class="col-lg-12">
-            <!-- <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
               </div>
-            </div> End Info Item -->
+            </li>
 
-          <!--  <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
-              </div>
-            </div> End Info Item -->
+          </ul>
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>hello@sureshpurohit (dot) in 
+        </section> -->
 
-                <!--<a href="mailto:hello@sureshpurohit.in">hello@sureshpurohit.in</a>-->
-                </p>
-              </div>
-            </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-linkedin flex-shrink-0"></i>
-              <div>
-                <h3>Linkedin link : </h3>
+        <!--- testimonials modal-->
+
+         <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
                 <p>
-                <a href="https://www.linkedin.com/in/https://www.linkedin.com/in/sureshpurohit/
-" target="_blank">https://www.linkedin.com/in/sureshpurohit/
-</a>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
                 </p>
               </div>
-            </div><!-- End Info Item -->
+
+            </div>
+
+          </section>
+
+        </div> 
+
+
+        <!--- clients -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title"> Active Ventures</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#portfolio">
+                <img src="./assets/images/pharmacupboard.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#portfolio">
+                <img src="./assets/images/Quizousie.svg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#portfolio">
+                <img src="./assets/images/Zangit.svg" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--- #Journey -->
+
+      <article class="Journey" data-page="Journey">
+
+        <header>
+          <h2 class="h2 article-title">Journey</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
           </div>
 
-         
+          <ol class="timeline-list">
+            <li class="timeline-item">
 
+              <h4 class="h4 timeline-item-title">LEAP Entrepreneurs' Mentoring Board (LEAP-EMB), Indian Institute of Management Ahmedabad</h4>
+
+              <span>Aug 2025 - Dec 2025</span>
+
+              <p class="timeline-text">
+                Executive Education Program.              
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Certificate in Study of Ancient Indian Arts, Music, Dance, Drama and Paintings, GTU Centre for Indian Knowledge Systems</h4>
+
+              <span>Oct 2021 - Dec 2021</span>
+
+              <p class="timeline-text">
+                Activities and societies: Indian Concept of Arts & Human Development through Arts. <br>
+                4 Credit points.Activities and societies: Indian Concept of Arts & Human Development through Arts. 4 Credit points. <br>
+                Online live sessions by Gujarat Technological University <br>
+                DHAROHAR - GTU Center for Indian Knowledge Systems & Bhishma School of Indic Studies 
+               </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Lateral Thinking Course, de Bono Thinking Systems</h4>
+
+              <span>2014 - 2014</span>
+
+              <p class="timeline-text">
+                Lateral Thinking Course, Creativity and InnovationLateral Thinking Course, Creativity and Innovation <br>
+                Activities and societies: Lateral ThinkingActivities and societies: Lateral Thinking <br>
+                Dr Edward de Bono's Lateral Thinking course from certified master trainer.
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Academy for Applied Creativity</h4>
+
+              <span>2001 - 2003</span>
+
+              <p class="timeline-text">
+                Activities and societies: The academy run by ideas-man Szar.Activities and societies: The academy run by ideas-man Szar. <br>
+                Now I-C! <br>
+                Lateral Thinking <br>
+                Square to Circle Thinking
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">MBA Marketing, The Maharaja Sayajirao University of Baroda</h4>
+
+              <span>2000 - 2002</span>
+
+              <p class="timeline-text">
+                Grade: First Class with DistinctionGrade: First Class with Distinction <br>
+                Activities and societies: Shastrarth - Acted as Jt Editor - a magazine released by Management Students' Forum <br>
+                Paper Presentation on Branding at Punjab University, Chandigarh. <br>
+                Paper presentation on Branding at PIMR, Indore.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">BE Chemical Engineering, Dharmsinh Desai University</h4>
+
+              <span>1996 - 2000</span>
+
+              <p class="timeline-text">
+                Activities and societies: * Organizing Committee Member for Collision 1998, a national level event. <br>
+                One technical and one non-technical paper presentation <br>
+                Delegate at IIChE National Conference, Chemcon 1998 held at Visakapatnam (i.e. Vizag) during 19-20th <br>
+                December 1998 <br>
+                Member of IIChE (Indian Institute of Chemical Engineers) <br>
+                Member of IE (India) 
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Bachelor of Medicine, Bachelor of Surgery - MBBS, The Maharaja Sayajirao University of Baroda</h4>
+
+              <span>1995 - 1996</span>
+
+              <p class="timeline-text">
+                Baroda Medical College
+                Studied for around a year. Left to pursue BE and MBA.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Director</h4>
+              <span>Rajshree Business InnoMarketing Pvt Ltd</span>
+              <span>Sep 2019 - Present</span>
+
+              <p class="timeline-text">
+                "Business has only two basic functions - Innovation and Marketing" - Peter Drucker said. <br>
+                PharmaCupboard.com : for Pharma, Chemical and all allied industries <br>
+                Zangit: Music app to enjoy hindi songs & classical renditions as per raag-time table, available on Google Play Store. <br>
+                InnoMall India: Making Life Better. Innovative, unique, enviro friendly products. (Authorized channel partner for Versatile Electric Scooter & Enerlyf) <br>
+                Quizousie : add fun to your gatherings. Outdoors, Indoors, Competition, Celebration, Training, Travel <br>
+                SureshPurohit.in : Consultancy, Training for Innovation <br>
+                Tanki Ki Ghanti : water-saving initiative. Overhead water tank alarm   <br>          
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Member Board of Trustees</h4>
+              <span>Yuvalay</span>
+              <span>Jul 2019 - Present</span>
+
+              <p class="timeline-text">
+                Not-for-Profit. Volunteering. <br>
+                Yuvalay Charitable Trust is operates through various divisions/activities: Yuvalay, Yuvalay Electronics Lab, Maker Fest Vadodara, YuvaWrites, YuvaSpeaks, YuvaTalkies, to name a few. <br>
+                Yuvalay is established in 2014 in Vadodara. <br>
+                Not-for-Profit. Volunteering. Yuvalay Charitable Trust is operates through various divisions/activities: Yuvalay, Yuvalay Electronics Lab, Maker Fest Vadodara, YuvaWrites, YuvaSpeaks, YuvaTalkies, to name a few. Yuvalay is established in 2014 in Vadodara. <br>
+                Skills: Event Management · Board Governance · Strategic Planning · Nonprofit Organizations · Public Speaking · Community Outreach · Team Leadership · Fundraising · Volunteer Management · Program Development · Social Media
+               </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Organizing Team</h4>
+              <span>Maker Fest Vadodara</span>
+              <span>Dec 2018 - Present</span>
+
+              <p class="timeline-text">
+                Organising team member. Not-for-Profit. Volunteering.  <br>
+                We have been organising this annual event in Vadodara since March-2019. This two-days exhibition is organized by Yuvalay Electronics Lab and Vadodara Innovation Council showcasing 50+ makers every year. <br>
+                More info: www.makerfestvadodara.com
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder</h4>
+              <span>PharmaCupboard</span>
+              <span>Aug 2016 - Present</span>
+
+              <p class="timeline-text">
+                PharmaCupboard is a pan-India e-marketplace for usable & unused materials. It serves chemical, pharma, biopharmaceuticals, cosmetics, agro chemical, paints and all allied industries of India. It facilitates the buying and sale of usable, unused items such as API (bulk drugs), Excipients, Chemicals, Solvents, Packing materials, Intermediates, Fragrances, Flavours, Catalysts. It is driven by 3Ts : Trust, Transparency and Technology. <br>
+                It was nominated for India Pharma Awards for three consecutive years 2017, 2018 & 2019 as 'Digital Pharma Innovation' by CPhI India. It is recognized as '10 Best B2B Marketplace Startups" in India for 2020 by StartupCity. It has also featured on YourStory as a part of series 'Startup Bharat' in Sep-2020. <br>
+                It is referred as a game changer and an innovative solution to conventional problem of industries. It is considered to be one of the largest such portals for this specific segment in India. <br>
+                It is a recognized as a Startup by Govt of India. So far, it has helped Indian industries to sell over 750 MT materials. <br>
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founding Board Member</h4>
+              <span>Vadodara Innovation Council</span>
+              <span>Jul 2011 - Present</span>
+
+              <p class="timeline-text">
+                Not-for-Profit. Volunteering. <br>
+                Vadodara Innovation Council is India's first city-based Innovation Council. It's established in 2011, serves Vadodara region by various strategic and innovative activities. It also organizes Maker Fest Vadodara annually since 2019. <br>
+                Organising team member of Tod-Fod-Jod Fest 2019, honoured by Shri Sonam Wangchuk in Apr-2019. <br>
+                Organising team member of Tod-Fod-Jod Fest 2023 organized on 28-Jan-2023. <br>
+                Key Programs: Tod-Fod-Jod, InnoTalk, InnoQuest-Digital, InnoQuest-Curioisity, Socho Hatke.
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Innovation Champion</h4>
+              <span>SureshPurohit.in</span>
+              <span>Sep 2022 - Feb 2024</span>
+
+              <p class="timeline-text">
+                Suresh Purohit is a proven enabler to 'think without constraints'. One of the biggest blocks to growth, development and innovation is not any resource, but mental constraint. SureshPurohit.in offers value addition services such as: Idea factory, Quizzing, Stakeholder engagements, Learning & development systems and Consulting. In three years, it has conducted learning sessions & workshops for Corporates. The sessions were conducted on varied topics such as Innovation, Creative Thinking, Corporate Value, Work Ethics, Passion, Team Work, Effective Communication, Entrepreneurship. ,<br>
+                His team has expertise in review mechanism, leading idea-suggestion system, re-crafting learning systems and designing interesting stakeholder engagements. <br>
+                His team is engaged by top three renowned pharma companies of India. <br>
+                He served also as a quiz master for Gujarat's coveted quiz 'Sandesh Student of the year' Season 4 - 2019, organised at Ahmedabad, Surat, Rajkot and Vadodara. 
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder</h4>
+              <span>InnoMall Vadodara</span>
+              <span>Jun 2018 - Dec 2023</span>
+
+              <p class="timeline-text">
+                InnoMall Vadodara = Innovative, unique, affordable, enviro-friendly and futuristic products. <br>
+                Major products <br>
+                - Versatile Electric Scooter - as an authorized channel partner <br>
+                - Quizousie Box <br>
+                - EnerSave (EnerLyf) - as an authorized channel partner <br>
+              </p>
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">External (Visiting) Faculty</h4>
+              <span>The Maharaja Sayajirao University of Baroda</span>
+              <span>Jun 2011 - Jun 2018</span>
+
+              <p class="timeline-text">
+                Post Graduation Diploma in different fields of Management.<br>
+                Faculty of Commerce.<br>
+                Subjects covered: Project Management, Generation of ideas, Marketing feasibility, Technical feasibility, Environmental feasibility.
+              </p>
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Strategy, Innovation, Operations, Marketing</h4>
+              <span>Zydus Group</span>
+              <span>Apr 2012 - Aug 2016</span>
+
+              <p class="timeline-text">
+                Now known as Zydus Lifesciences Limited (formerly known as Cadila Healthcare Limited)<br>
+                Strategic Business Unit: API (Bulk Drugs)<br>
+                Acted as a 'Collaboration Champion' for Business Unit<br>
+                a part of President's office<br>
+                Led: Idea Management System (Innovation)<br>
+                'Best Business Unit in Innovation' for year 2012 across entire Zydus group<br>
+                Quiz Master, Co-anchor and Organizing Team Member for Zydus Annual Day 2013, 2014<br>
+                Participated in 100 KM learning walk of 32nd Shodhyatra for grass root innovation in Punjab<br>
+                Maa Tujhe Salaam - Quiz on Independence Day 2014 in Vadodara district<br>
+                Founder: Innovation Champions' Club (ICC)<br>
+                Sales and Marketing of API (Bulk Drugs) for India, Middle East, SAARC - from April to Jul 2015.<br>
+                Aug-2015 onward: Global business development - new opportunity identification, acquisition analysis
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Managing Committee</h4>
+              <span>Baroda Management Association</span>
+              <span>Mar 2013 - Feb 2014</span>
+
+              <p class="timeline-text">
+                Member of Managing Committee for the term (2013-2014)<br>
+                Not-for-Profit. Volunteering.<br>
+                Baroda Management Association (BMA), founded in 1957, is the founding member of All India Management Association.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder</h4>
+              <span>OliveTrips</span>
+              <span>Mar 2011 - Apr 2012</span>
+
+              <p class="timeline-text">
+                OliveTrips.com is a vehicle sharing portal, launched on the World Environment Day by well-known environmentalist Shri Kartikeya V Sarabhai (Padma Shree) at Ahmedabad. <br>
+                Useful and free website for carpooling, taxi/cab/auto sharing, 2-wheeler sharing.<br>
+                OliveTrips has wonderful blend of Collaboration, Innovation, Technology, Environment and Society.<br>
+                It is becoming very popular in India, easily scalable for the world.<br>
+                It has also won 'VNM TV Environmental Excellence Award 2013' in Jun-2013.<br>
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Manager (Techno Commercial Management)</h4>
+              <span>Torrent Pharmaceuticals Ltd.</span>
+              <span>Nov 2006 - Jan 2011</span>
+
+              <p class="timeline-text">
+                Techno Commercial Management<br>
+                Project Management<br>
+                Clinical Trial Management (Pre Clinical, Phase I, Phase II)<br>
+                Joined as an Assistant Manager in Nov-2006.<br>
+                Elevated as a Manager in April-2009.<br>
+                Organized Quizzes for Torrent, Sparsh, Baroda Management Association.<br>
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Assistant Manager Marketing</h4>
+              <span>Atul LimitedAtul Limited</span>
+              <span>Jun 2005 - Nov 2006</span>
+
+              <p class="timeline-text">
+                Sales &amp; Marketing Manager <br>
+                Client base: Pulp-Paper industries, Dyes Industries, Glass Industries, Chemical Industries.<br>
+                In-charge of Production-Planning Coordination meeting for some duration <br>
+                ISO 14001 (Environment Audit) Certification Course.<br>
+                Represented Atul Limited in Brand Equity Quiz Ahmedabad in 2006.<br>
+                Organized a 'GK-Business Quiz' for Corporates of Atul Limited.<br>
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Assistant Manager Marketing</h4>
+              <span>Aditya Birla Group</span>
+              <span>Nov 2003 - Feb 2005</span>
+
+              <p class="timeline-text">
+                Chemical Marketing Division of Grasim Industries Limited
+                Started the Delhi Branch Office for North-Indian Operations.<br>
+                Products handled: Sodium Sulphate, Sulphuric Acid.<br>
+                Client Base: North Indian territory, Pulp-Paper Industries.<br>
+                Represented Grasim Industries Limited in Business India Acumen Quiz at IIT-Delhi.
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">EA to Director</h4>
+              <span>UPL Environmental Engineers Ltd </span>
+              <span>Apr 2003 - Nov 2003</span>
+
+              <p class="timeline-text">
+                Executive Assistant to Director in Associated Environmental Engineers Private Limited (AEEPL). AEEPL was later renamed as UPL Environmental Engineers Limited.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Management Trainee</h4>
+              <span>DIAMINES AND CHEMICALS LIMITED</span>
+              <span>Oct 2002 - Apr 2003</span>
+
+              <p class="timeline-text">
+                Management Trainee. Reporting to Marketing Manager and Commercial Manager.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Associate Editor</h4>
+              <span>The Smart Manager</span>
+              <span>May 2002 - Sep 2002</span>
+
+              <p class="timeline-text">
+                The Smart Manager is India's first management magazine, launched in 2002 is now published by Spenta MultiMedia and was initially founded by Mumbai business people Gita Piramal, Nitin Nohria and Sumantra Ghoshal with Dr Gita Piramal as the editor. The magazine has a knowledge partnership with CNBC-TV18 (the Indian venture of CNBC) and is hosted on their online platform.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <!-- <section class="skill">
+
+          <h3 class="h3 skills-title">My expertise</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Management</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Planning</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Relation build-up</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Leadership</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section> -->
+
+      </article>
+
+      <!--- #PORTFOLIO -->
+
+    <article id="portfolio" class="portfolio" data-page="portfolio">
+
+      <header>
+        <h2 class="h2 article-title">Service Portfolio</h2>
+      </header>
+
+      <section class="projects">
+
+        <!-- Filter Buttons -->
+        <ul class="filter-list">
+          <li class="filter-item">
+            <button class="active" data-filter-btn>All</button>
+          </li>
+          <li class="filter-item">
+            <button data-filter-btn>Active</button>
+          </li>
+          <li class="filter-item">
+            <button data-filter-btn>Inactive</button>
+          </li>
+        </ul>
+
+        <!-- Dropdown Filter -->
+        <div class="filter-select-box">
+          <button class="filter-select" data-select>
+            <div class="select-value" data-selecct-value>Select category</div>
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+          </button>
+
+          <ul class="select-list">
+            <li class="select-item"><button data-select-item>All</button></li>
+            <li class="select-item"><button data-select-item>Active</button></li>
+            <li class="select-item"><button data-select-item>Inactive</button></li>
+          </ul>
         </div>
 
-      </div>
+        <!-- Projects -->
+        <ul class="project-list">
+          <!-- Example: Active Project -->
+            <li class="project-item active" data-filter-item data-category="active">
+              <a href="https://pharmacupboard.com/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/pharmacupboard.png" alt="PharmaCupboard" loading="lazy">
+                </figure>
+                <h3 class="project-title">PharmaCupboard</h3>
+                <p class="project-category">Active</p>
+              </a>
+            </li>
 
-    </section><!-- /Contact Section -->
+            <!-- Inactive Project -->
+            <li class="project-item active" data-filter-item data-category="inactive">
+              <a href="https://rajshree.co.in/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/OliveTrips.png" alt="OliveTrips" loading="lazy">
+                </figure>
+                <h3 class="project-title">OliveTrips</h3>
+                <p class="project-category">Inactive</p>
+              </a>
+            </li>
+
+            <!-- Another Inactive Project -->
+            <li class="project-item active" data-filter-item data-category="inactive">
+              <a href="https://rajshree.co.in/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/tankikighanti.png" alt="Tanki Ki Ghanti" loading="lazy">
+                </figure>
+                <h3 class="project-title">Tanki Ki Ghanti</h3>
+                <p class="project-category">Inactive</p>
+              </a>
+            </li>
+
+            <!-- Active Projects -->
+            <li class="project-item active" data-filter-item data-category="active">
+              <a href="https://play.google.com/store/apps/details?id=in.zangit.app&hl=en_IN&pli=1">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/zangit_project.png" alt="Zangit" loading="lazy">
+                </figure>
+                <h3 class="project-title">Zangit</h3>
+                <p class="project-category">Active</p>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="active">
+              <a href="https://quizousie.com/">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+                  <img src="./assets/images/Quizousie_project.png" alt="Quizousie" loading="lazy">
+                </figure>
+                <h3 class="project-title">Quizousie</h3>
+                <p class="project-category">Active</p>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!-- - #BLOG
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article> -->
+
+      <!--- #CONTACT-->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+        <div class="invite-box">
+          <h3>Invite for Talk / Guest Lecture</h3>
+          <p>Please send an <span class="highlight">email</span> with the following details:</p>
+          <ol>
+            <li><b>1. </b><strong>Topic</strong></li>
+            <li><b>2. </b><strong>Event</strong></li>
+            <li><b>3. </b><strong>Date</strong></li>
+            <li><b>4. </b><strong>Location</strong></li>
+            <li><b>5. </b><strong>Name of Organization</strong></li>
+            <li><b>6. </b><strong>Contact Details</strong></li>
+          </ol>
+        </div>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.463804422978!2d73.16206917506922!3d22.298292379688096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc5d23db492fd%3A0x52282e03620b9a3f!2z4Kqr4Kq-4Kqw4KuN4Kqu4Kq-4KqV4Kqq4Kqs4KuJ4Kqw4KuN4KqhIOCqoeCri-CqnyDgqpXgq4vgqq4!5e0!3m2!1sen!2sin!4v1755793671852!5m2!1sen!2sin"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <!-- <section class="contact-form">
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form> -->
+            <!-- 🔑 Your Web3Forms Access Key -->
+            <!-- <input type="hidden" name="access_key" value="5b58f2c1-b1b1-41ff-bfcb-7dbfe4a0883a">
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+          </form>
+        </section> -->
+
+
+      </article>
+
+    </div>
 
   </main>
 
-  <footer id="footer" class="footer dark-background">
-    <div class="container">
-      <!--<h3 class="sitename">KnightOne</h3>
-      <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
-      <div class="social-links d-flex justify-content-center">
-        <a href=""><i class="bi bi-twitter-x"></i></a>
-        <a href=""><i class="bi bi-facebook"></i></a>
-        <a href=""><i class="bi bi-instagram"></i></a>
-        <a href=""><i class="bi bi-skype"></i></a>
-        <a href=""><i class="bi bi-linkedin"></i></a>-->
-      </div>
-      <div class="container">
-        <div class="copyright">
-        
-          <span>Copyright</span> <span>  © 2016 - 2025  Rajshree Business InnoMarketing Pvt Ltd </span><span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        
-        </div>
-      </div>
-    </div>
+  <!--- custom js link-->
+  <script src="./assets/js/script.js"></script>
 
-   
-  </footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-  <!-- Preloader -->
-  <div id="preloader"></div>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-  
-
-
-
-
-<!-- Quizousie Modal -->
-<div class="modal fade" id="quizousieModal" tabindex="-1" aria-labelledby="quizousieModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-xl modal-dialog-scrollable">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="quizousieModalLabel">Quizousie & Quizzing Journey</h5>
-        <!--<a href="https://quizousie.com" target="_blank" class="btn btn-sm btn-primary">Visit quizousie.com</a>-->
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p><strong>Su_hit</strong> is passionate about conducting Quizzes, especially GK and Business Quizzes. He is able to innovate well the format and art of quizzing. He is considered to be one of the finest quiz masters of Gujarat, as he has conducted quizzes in Ahmedabad, Vadodara and Valsad. His command over English, Hindi and Gujarati is an added advantage.</p>
-
-        <hr>
-        <h6>Yearly Summary:</h6>
-        <table class="table table-bordered table-striped small">
-          <thead>
-            <tr>
-              <th>Year</th>
-              <th>No. of Quizzes</th>
-              <th>Locations</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr><td>2001</td><td>1</td><td>Vadodara</td></tr>
-            <tr><td>2005-06</td><td>3</td><td>Atul, Valsad</td></tr>
-            <tr><td>2007</td><td>2</td><td>Ahmedabad</td></tr>
-            <tr><td>2008</td><td>2</td><td>Ahmedabad</td></tr>
-            <tr><td>2009</td><td>4</td><td>Vadodara, Ahmedabad</td></tr>
-            <tr><td>2010</td><td>1</td><td>Vadodara</td></tr>
-            <tr><td>2010-11</td><td>1</td><td>ETV Gujarati</td></tr>
-            <tr><td>2011</td><td>1</td><td>Vadodara</td></tr>
-            <tr><td>2012</td><td>3</td><td>Vadodara</td></tr>
-            <tr><td>2013</td><td>0</td><td>NA</td></tr>
-            <tr><td>2014</td><td>3</td><td>Vadodara, Ahmedabad</td></tr>
-            <tr><td>2015</td><td>1</td><td>Vadodara</td></tr>
-            <tr><td>2016</td><td>1</td><td>Vadodara</td></tr>
-            <tr><td>2017</td><td>2</td><td>Vadodara</td></tr>
-            <tr><td>2018</td><td>1</td><td>Vadodara</td></tr>
-            <tr><td>2019</td><td>2</td><td>Ahmedabad, Vadodara</td></tr>
-            <tr><td>2020</td><td>1</td><td>Vadodara</td></tr>
-            <tr><td>2021</td><td>1</td><td>Vadodara</td></tr>
-            <tr><td>2022</td><td>1</td><td>Vadodara</td></tr>
-            <tr><td>2023</td><td>3</td><td>Vadodara</td></tr>
-            <tr><td>2024</td><td>1</td><td>Mumbai</td></tr>
-          </tbody>
-        </table>
-
-        <hr>
-        <h6>Major Quiz Events:</h6>
-        <ul class="small">
-          <li>Teacher's Day Quiz, 2001, M S University of Baroda</li>
-          <li>Corporate Quiz, Atul Limited</li>
-          <li>School Quiz, Atul, Valsad</li>
-          <li>Wonder Quiz, Torrent Pharma, Ahmedabad, 2007</li>
-          <li>Deepbhoomi Residency Quiz, Ahmedabad, 2008</li>
-          <li>Popcorn Quiz, Khel Milaap, Ahmedabad, 2009</li>
-          <li>Safety Quiz, 2009, Ahmedabad</li>
-          <li>ETV Gujarati – Saval Ek Lakhno</li>
-          <li>Inter-school Quiz, Vadodara, 2012</li>
-          <li>SMArt Quiz, Ahmedabad, 2014</li>
-          <li>Maa Tujhe Salaam – Cadila Healthcare, 2014 & 2015</li>
-          <li>Innovation Quiz, VCCI Trade Show, 2016</li>
-          <li>HR Quiz, ISTD Conference, 2017</li>
-          <li>Quizgadi, Indian Railways, 2018</li>
-          <li>Sandesh Student Quiz, 2019</li>
-          <li>Maker Fest Quizousie, 2020</li>
-          <li>Alice in Quizland, 2021</li>
-          <li>India Pharma Quiz, 2021</li>
-          <li>Lata Quizousie, 2022</li>
-          <li>Tod-Fod-Jod Quizousie, 2023</li>
-          <li>Entrepreneurship Quiz, Navrachana University, 2023</li>
-          <li>GSFC Quizousie, 2023</li>
-          <li>India's Pride Quizousie, 2023</li>
-          <li>Chemical Quiz, Advantage India Chemical Conclave, 2024</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-
-<script>
-
-
-document.addEventListener('DOMContentLoaded', function () {
-  const form = document.getElementById('contactform');
-  if (!form) return;
-
-  const loading = document.getElementById('loading-message');
-  const success = document.getElementById('success-message');
-  const error = document.getElementById('error-message');
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault();
-
-    // Hide previous messages
-    if (loading) loading.style.display = 'block';
-    if (success) success.style.display = 'none';
-    if (error) error.style.display = 'none';
-
-    const formData = new FormData(form);
-
-    fetch('http://localhost/Suresh/forms/contact.php', {
-      method: 'POST',
-      body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
-      if (loading) loading.style.display = 'none';
-
-      if (data.status === 'success') {
-        if (success) {
-          success.innerText = data.message;
-          success.style.display = 'block';
-     
-
-        // ✅ Clear the form after success
-        form.reset();
-      }
-    }
-       else
-        {
-        if (error) {
-          error.innerText = data.message || 'Something went wrong.';
-          error.style.display = 'block';
-        }
-      }
-      })
-    .catch(err => {
-      if (loading) loading.style.display = 'none';
-      if (error) {
-        error.innerText = 'An unexpected error occurred. Please try again.';
-        error.style.display = 'block';
-      }
-    });
-  });
-});
-</script>
-
-
-
-<!-- Main JS File -->
-<script src="assets/js/main.js"></script>
- <!-- <script src="assets/vendor/php-email-form/js/validate.js"></script>-->
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
 
