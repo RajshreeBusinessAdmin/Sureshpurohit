@@ -859,7 +859,7 @@ main {
 .clients-item img {
   width: 100%;
   transition: var(--transition-1);  /* fixed width */
-  height: 60px;   /* fixed height */
+  height: 70px;   /* fixed height */
   object-fit: contain; /* keeps aspect ratio inside the box */
   display: block;
   margin: auto;   /* centers the logo */
